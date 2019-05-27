@@ -22,3 +22,5 @@ spring:
       validation-query: select 1
       initial-size: 10
 
+user:
+  name: black
