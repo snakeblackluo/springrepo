@@ -6,6 +6,10 @@ spring:
       ddl-auto: create
     database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
 
+  data:
+    mongodb:
+
+      uri: mongodb://127.0.0.1:27017/rboot
 
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
@@ -17,3 +21,4 @@ spring:
       max-active: 20
       validation-query: select 1
       initial-size: 10
+
