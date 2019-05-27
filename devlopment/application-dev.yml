@@ -9,7 +9,7 @@ spring:
   data:
     mongodb:
 
-      uri: mongodb://127.0.0.1:27017/testss
+      uri: mongodb://127.0.0.1:27017/testsss
 
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
